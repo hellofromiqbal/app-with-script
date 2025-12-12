@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "obfuscate": "javascript-obfuscator public/testing.js --output public/testing.obf.js"
+    "obfuscate": "javascript-obfuscator scripts/testing.js --output public/testing.obf.js"
   },
   "dependencies": {
     "next": "16.0.10",
