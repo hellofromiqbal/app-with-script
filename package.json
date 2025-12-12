@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "obfuscate": "javascript-obfuscator public/testing.js --output public/testing.obf.js"
   },
   "dependencies": {
     "next": "16.0.10",
@@ -20,6 +21,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.10",
+    "javascript-obfuscator": "^5.0.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
